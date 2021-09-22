@@ -1,0 +1,152 @@
+/*Contact Us style*/
+#name1{
+  color:beige;
+  font-size: 30px;
+  position: absolute;
+  top: 480px;
+  left: 550px;
+}
+
+#name2{
+  color:beige;
+  font-size: 30px;
+  position: absolute;
+  top: 517px;
+  left: 550px;
+}
+
+#name3{
+  color:beige;
+  font-size: 30px;
+  position: absolute;
+  top: 554px;
+  left: 550px;
+}
+
+#name4{
+  color:beige;
+  font-size: 30px;
+  position: absolute;
+  top: 591px;
+  left: 616px;
+}
+
+
+
+/*Flors page style*/
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+
+/*Body Background style*/
+body{
+  background-image: url(/static/bg1.jpg);
+}
+
+/*navbar title from w3school*/
+/* Add a black background color to the top navigation */
+.topnav {
+  position: relative;
+  background-color: rgb(57, 209, 247);
+  overflow: visible;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #080707;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: verdana;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(166, 234, 247);
+  color: black;
+  text-decoration: none;
+  
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  font-size: xx-large;
+  color: rgb(7, 7, 7);
+  font-family: arial black;
+  text-decoration: none;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+  text-decoration: none;
+}
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+    text-decoration: none;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #020202;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 99999;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgb(243, 3, 3);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #751814;}
